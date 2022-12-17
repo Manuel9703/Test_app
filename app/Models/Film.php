@@ -10,9 +10,7 @@ class Film extends Model
     use HasFactory;
 
     protected $table = 'film';
-    protected $primaryKey = [
-        'film_id'
-    ];
+    protected $primaryKey = 'film_id';
 
     public $timestamps = false;
 

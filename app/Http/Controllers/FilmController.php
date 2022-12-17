@@ -9,9 +9,6 @@ class FilmController extends Controller
 {
     public function show()
     {
-
-        dd(Film::all()->toArray());
-
         return Film::all();
     }
 
